@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    
+    background-image: url(tg.jpg);
+    background-position: center;
+    background-repeat: no-repeat,;
+    padding: 15px;
+    height: 100vh;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: rgb(248, 245, 245);
+padding:5px 20px ;
+border: 1px solid #fff transparent;
+transition:0.6 ease ;
+
+}
+ul li a :hover{
+   background-color: rgb(14, 240, 14); 
+   color: black;
+}
+.logo img{
+    float:left ;
+    width: 150px;
+    height:50px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul li .active a{
+    background-color: aquamarine;
+    color: rgb(28, 229, 71);
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+  color: #fff; 
+  font-size: 50px; 
+  
+}
